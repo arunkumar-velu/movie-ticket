@@ -1,0 +1,3 @@
+<div class="square available" (click)="select($event, row, column)" [ngClass]="(wasClicked ? 'reserved' : '') +' '+(isBooked ? 'booked' : '')"> 
+	<p> {{row}}{{column}} </p>
+</div>

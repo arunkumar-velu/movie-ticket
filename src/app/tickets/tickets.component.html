@@ -1,0 +1,12 @@
+<div class="seats">
+	<div class="row" *ngFor="let row of rows;">
+		<span class="column" *ngFor="let column of columns;">
+			<app-seat [row]="row" [column]="column" [selectedSeat]="selectedSeat"></app-seat>
+		</span>
+	</div>	
+	<p class="screen"> Screen</p>
+</div>
+<div class="info">
+	<p *ngIf="selectedSeats"> You have selected {{selectedSeats}} seats</p>
+	<button class="book-now" (click)="bookNow($event)" [disabled]="!isActive"> Book now</button>
+</div>

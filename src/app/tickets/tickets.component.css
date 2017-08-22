@@ -1,0 +1,31 @@
+.row{
+	padding: 5px;
+}
+.column{
+	padding: 5px;
+}
+.screen{
+	text-align: center;
+	color: #1aa2eb;
+	font-size: 20px;
+}
+.book-now{
+	color: #ffffff;
+	padding: 10px 30px;
+	background: #1aa2eb;
+	margin: 10px;
+    border: none;
+    font-size: 15px;
+}
+.book-now[disabled]{
+	background: #92c3de;
+}
+.seats{
+	float: left;
+}
+.info{
+	padding-top: 2px;
+}
+.info p{
+	color: #656565
+}

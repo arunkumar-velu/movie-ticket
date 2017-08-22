@@ -1,0 +1,9 @@
+<h2 class="title"> Book your Tickets </h2>
+<ul>
+	<li *ngFor="let movie of movies;">
+		<a routerLink="/tickets">
+			<p class="movie-name">{{movie.name}}</p>
+			<img [src]="movie.image_path" height="168" width="300">
+		</a>
+	</li>
+</ul>

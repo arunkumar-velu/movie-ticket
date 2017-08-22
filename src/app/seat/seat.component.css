@@ -1,0 +1,19 @@
+.square{
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	display: inline-block;
+}
+.square p{
+	margin-top: 28px;
+    color: white;
+}
+.available{
+	background: #228B22;
+}
+.booked{
+	background: #ff0000;
+}
+.reserved{
+	background: #FFA500;
+}

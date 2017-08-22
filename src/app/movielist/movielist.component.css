@@ -1,0 +1,13 @@
+.title, .movie-name{
+	text-align: center;
+	color: #656565
+}
+ul li{
+	float: left;
+	list-style: none;
+	margin: 50px;
+}
+ul li a{
+	text-decoration: none;
+	color: #ffffff
+}
