@@ -11,3 +11,8 @@ ul li a{
 	text-decoration: none;
 	color: #ffffff
 }
+.info{
+	text-align: center;
+    float: left;
+    color: #656565
+}

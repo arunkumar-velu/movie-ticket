@@ -2,6 +2,7 @@
 	height: 70px;
 	width: 70px;
 	text-align: center;
+	cursor: pointer;
 	display: inline-block;
 }
 .square p{
