@@ -5,5 +5,9 @@ Pre-request
 Angular-cli should be installed refer this link https://angular.io/guide/quickstart
 
 To run this app in local download the repo
-Do npm install
-Do ng s
+
+1. Do npm install
+2. Do ng s
+
+
+DEMO http://tickets.arunkumarvelu.com/
