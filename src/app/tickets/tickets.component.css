@@ -1,30 +1,60 @@
 .row{
-	padding: 5px;
+	padding: 0;
 }
 .column{
-	padding: 5px;
+	padding: 0;
 }
 .screen{
 	text-align: center;
 	color: #1aa2eb;
 	font-size: 20px;
+	padding: 20px;
+	margin: 34px 60px;
+    background: #e6e6e6;
+    color: #797979;
+    border-radius: 100% 100% 50px 50px;
 }
 .book-now{
 	color: #ffffff;
 	padding: 10px 30px;
-	background: #1aa2eb;
-	margin: 10px;
+	background: #fcaf08;
     border: none;
     font-size: 15px;
+	width: 150px;
+	margin: 40px 22px;
+	cursor: pointer;
 }
 .book-now[disabled]{
-	background: #92c3de;
+	background: #ffda89;
+	cursor: not-allowed;
 }
 .seats{
 	float: left;
+    width: 80%;
+    box-sizing: border-box;
+    background: white;
+	padding: 15px 15px 0 15px;
+	width: 960px;
+}
+.back{
+	background: #007bff;
+    border: 0px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+.seat-container{
+    margin: 0 auto;
 }
 .info{
-	padding-top: 2px;
+	display: inline-block;
+	width: 239px;
+    height: 100vh;
+	background-color: #ffffff;
+	border-left: 1px solid #d6d6d6;
+	box-sizing: border-box;
+    padding: 20px;
 }
 .info p{
 	color: #656565

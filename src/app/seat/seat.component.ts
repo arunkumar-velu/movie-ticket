@@ -24,6 +24,9 @@ export class SeatComponent implements OnInit {
   	let currentSeat = this.row+this.column;
   	return this.alreadyBooked.includes(currentSeat);
   }
+  get isSpace(){
+	  return (this.column === 2 || this.column === 10 || this.column === 18)
+  }
   select(event, row, column){
   	if(this.isBooked){
   		return false;

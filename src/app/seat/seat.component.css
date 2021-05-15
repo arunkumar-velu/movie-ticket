@@ -1,20 +1,25 @@
 .square{
-	height: 70px;
-	width: 70px;
 	text-align: center;
 	cursor: pointer;
 	display: inline-block;
+	margin: 12px 4px;
 }
 .square p{
-	margin-top: 28px;
-    color: white;
+	margin: 0;
+}
+.square.space{
+	margin-right: 32px;
+}
+.square p .fa-couch{
+	font-size: 24px;
 }
 .available{
-	background: #228B22;
+	color: #228B22;
 }
 .booked{
-	background: #ff0000;
+	color: #ff0000;
+	cursor: not-allowed;
 }
 .reserved{
-	background: #FFA500;
+	color: #FFA500;
 }
