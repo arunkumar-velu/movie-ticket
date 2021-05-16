@@ -1,18 +1,18 @@
 <h2 class="title"> Book your Tickets </h2>
 <ul class="cards">
-	<li class="cards__item" *ngFor="let movie of movies;">
+	<li class="cards_item" *ngFor="let movie of movies;">
 		<a routerLink="/tickets" [queryParams]="{ movie: movie.name}">
 			<div class="card">
-				<div class="card__image card__image--fence">
+				<div class="card_image">
 					<img [src]="movie.image_path" height="168" width="300">
 				</div>
-				<div class="card__content">
-				  <div class="card__title">{{movie.name}}</div>
-				  <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+				<div class="card_content">
+				  <div class="card_title">{{movie.name}}</div>
+				  <p class="card_text">{{movie.desc}} </p>
+				  <button class="card_btn">Book now</button>
 				</div>
 			</div>
 		</a>
 		
 	</li>
 </ul>
-<p class="info"> Select the movie to book the tikets </p>

@@ -1,20 +1,20 @@
-img {
-	height: auto;
-	max-width: 100%;
-	vertical-align: middle;
+.title{
+	color: #696969;
+	padding: 20px 0;
+	margin: 0;
 }
-
-.btn {
+.card_btn {
 	background-color: white;
 	border: 1px solid #cccccc;
 	color: #696969;
 	padding: 0.5rem;
-	text-transform: lowercase;
+	cursor: pointer;
 }
 
-.btn--block {
-	display: block;
-	width: 100%;
+.card_btn:hover{
+	background-color: rgb(255, 183, 28);
+	border: 1px solid rgb(255, 183, 28);
+	color: #fff;
 }
 
 .cards {
@@ -23,14 +23,15 @@ img {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	justify-content: space-between;
 }
 
-.cards__item {
+.cards_item {
 	display: flex;
-	padding: 1rem;
-	width: 30.66%;
+	width: 32%;
+	padding: 10px 0;
 }
-.cards__item a{
+.cards_item a{
 	text-decoration: none;
 	color: #777777;
 }
@@ -43,18 +44,18 @@ img {
 	flex-direction: column;
 	overflow: hidden;
 }
-.card:hover .card__image {
+.card:hover .card_image {
 	filter: contrast(100%);
 }
 
-.card__content {
+.card_content {
 	display: flex;
 	flex: 1 1 auto;
 	flex-direction: column;
 	padding: 1rem;
 }
 
-.card__image {
+.card_image {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -64,12 +65,14 @@ img {
 	overflow: hidden;
 	position: relative;
 	transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+	width: 100%;
+    height: 200px;
 }
-.card__image img{
+.card_image img{
 	height: 100%;
 	width: 100%;
 }
-.card__title {
+.card_title {
 	color: #696969;
 	font-size: 1.25rem;
 	font-weight: 300;
@@ -77,7 +80,7 @@ img {
 	text-transform: uppercase;
 }
 
-.card__text {
+.card_text {
 	flex: 1 1 auto;
 	font-size: 0.875rem;
 	line-height: 1.5;
