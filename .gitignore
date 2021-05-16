@@ -6,6 +6,7 @@
 /connect.lock
 /coverage/*
 /libpeerconnection.log
+/dist
 npm-debug.log
 testem.log
 .DS_Store
