@@ -12,5 +12,3 @@ To run this app in local download the repo
 1. Do npm install
 2. Do ng s
 
-
-DEMO http://tickets.arunkumarvelu.com/
