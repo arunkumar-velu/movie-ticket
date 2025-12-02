@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start": "node server.js",
-    "heroku-postbuild": "ng build --env=prod"
+    "heroku-postbuild": "ng build --env=prod",
+    "vercel-build": "ng build --prod"
   },
   "private": true,
   "dependencies": {
