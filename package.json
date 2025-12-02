@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "start": "node server.js",
     "heroku-postbuild": "ng build --env=prod",
-    "vercel-build": "ng build --prod"
+    "vercel-build": "ng build --env=prod"
   },
   "private": true,
   "dependencies": {
